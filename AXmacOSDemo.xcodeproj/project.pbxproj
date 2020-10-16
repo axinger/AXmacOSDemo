@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21655DD525397D1600071A5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21655DD425397D1600071A5F /* AppDelegate.m */; };
+		21655DD825397D1600071A5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21655DD725397D1600071A5F /* ViewController.m */; };
+		21655DDA25397D1700071A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21655DD925397D1700071A5F /* Assets.xcassets */; };
+		21655DE025397D1700071A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21655DDF25397D1700071A5F /* main.m */; };
+		21655E1025398A2D00071A5F /* AXWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21655E0325398A2D00071A5F /* AXWindowController.m */; };
+		21655E1125398A2D00071A5F /* AXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21655E0425398A2D00071A5F /* AXViewController.m */; };
+		21655E1225398A2D00071A5F /* AXUserInfoDao.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21655E0925398A2D00071A5F /* AXUserInfoDao.mm */; };
+		21655E1325398A2D00071A5F /* AXUserInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21655E0E25398A2D00071A5F /* AXUserInfo.mm */; };
+		90565520426A4FD62A3810AF /* Pods_AXmacOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB00A0D43975B0E09D6CB1 /* Pods_AXmacOSDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21655DD025397D1600071A5F /* 阿星Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "阿星Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21655DD325397D1600071A5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21655DD425397D1600071A5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21655DD625397D1600071A5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21655DD725397D1600071A5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21655DD925397D1700071A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21655DDE25397D1700071A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21655DDF25397D1700071A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21655DE125397D1700071A5F /* AXmacOSDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AXmacOSDemo.entitlements; sourceTree = "<group>"; };
+		21655E0325398A2D00071A5F /* AXWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXWindowController.m; sourceTree = "<group>"; };
+		21655E0425398A2D00071A5F /* AXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXViewController.m; sourceTree = "<group>"; };
+		21655E0525398A2D00071A5F /* AXWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXWindowController.h; sourceTree = "<group>"; };
+		21655E0825398A2D00071A5F /* AXUserInfoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXUserInfoDao.h; sourceTree = "<group>"; };
+		21655E0925398A2D00071A5F /* AXUserInfoDao.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AXUserInfoDao.mm; sourceTree = "<group>"; };
+		21655E0A25398A2D00071A5F /* DBFunctionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFunctionProtocol.h; sourceTree = "<group>"; };
+		21655E0C25398A2D00071A5F /* AXUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXUserInfo.h; sourceTree = "<group>"; };
+		21655E0D25398A2D00071A5F /* AXUserInfo+DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AXUserInfo+DB.h"; sourceTree = "<group>"; };
+		21655E0E25398A2D00071A5F /* AXUserInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AXUserInfo.mm; sourceTree = "<group>"; };
+		21655E0F25398A2D00071A5F /* AXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXViewController.h; sourceTree = "<group>"; };
+		22CB00A0D43975B0E09D6CB1 /* Pods_AXmacOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXmacOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803F6458A205011B62542B2A /* Pods-AXmacOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXmacOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-AXmacOSDemo/Pods-AXmacOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D8F0A62D5A94EA29E67F5B /* Pods-AXmacOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXmacOSDemo.release.xcconfig"; path = "Target Support Files/Pods-AXmacOSDemo/Pods-AXmacOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21655DCD25397D1600071A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90565520426A4FD62A3810AF /* Pods_AXmacOSDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21655DC725397D1600071A5F = {
+			isa = PBXGroup;
+			children = (
+				21655DD225397D1600071A5F /* AXmacOSDemo */,
+				21655DD125397D1600071A5F /* Products */,
+				B054089022D0FCDC41B11DB4 /* Pods */,
+				609D1D2D21AFBD4C98A01EB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21655DD125397D1600071A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21655DD025397D1600071A5F /* 阿星Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21655DD225397D1600071A5F /* AXmacOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				21655E0225398A2D00071A5F /* Classes */,
+				21655DD325397D1600071A5F /* AppDelegate.h */,
+				21655DD425397D1600071A5F /* AppDelegate.m */,
+				21655DD625397D1600071A5F /* ViewController.h */,
+				21655DD725397D1600071A5F /* ViewController.m */,
+				21655DD925397D1700071A5F /* Assets.xcassets */,
+				21655DDE25397D1700071A5F /* Info.plist */,
+				21655DDF25397D1700071A5F /* main.m */,
+				21655DE125397D1700071A5F /* AXmacOSDemo.entitlements */,
+			);
+			path = AXmacOSDemo;
+			sourceTree = "<group>";
+		};
+		21655E0225398A2D00071A5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21655E0325398A2D00071A5F /* AXWindowController.m */,
+				21655E0425398A2D00071A5F /* AXViewController.m */,
+				21655E0525398A2D00071A5F /* AXWindowController.h */,
+				21655E0625398A2D00071A5F /* UserInfo */,
+				21655E0F25398A2D00071A5F /* AXViewController.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		21655E0625398A2D00071A5F /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				21655E0725398A2D00071A5F /* Dao */,
+				21655E0B25398A2D00071A5F /* Model */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		21655E0725398A2D00071A5F /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				21655E0825398A2D00071A5F /* AXUserInfoDao.h */,
+				21655E0925398A2D00071A5F /* AXUserInfoDao.mm */,
+				21655E0A25398A2D00071A5F /* DBFunctionProtocol.h */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		21655E0B25398A2D00071A5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21655E0C25398A2D00071A5F /* AXUserInfo.h */,
+				21655E0D25398A2D00071A5F /* AXUserInfo+DB.h */,
+				21655E0E25398A2D00071A5F /* AXUserInfo.mm */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		609D1D2D21AFBD4C98A01EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22CB00A0D43975B0E09D6CB1 /* Pods_AXmacOSDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B054089022D0FCDC41B11DB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				803F6458A205011B62542B2A /* Pods-AXmacOSDemo.debug.xcconfig */,
+				B8D8F0A62D5A94EA29E67F5B /* Pods-AXmacOSDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21655DCF25397D1600071A5F /* 阿星Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21655DE425397D1700071A5F /* Build configuration list for PBXNativeTarget "阿星Mac" */;
+			buildPhases = (
+				2CB57175624655C629E1D07D /* [CP] Check Pods Manifest.lock */,
+				21655DCC25397D1600071A5F /* Sources */,
+				21655DCD25397D1600071A5F /* Frameworks */,
+				21655DCE25397D1600071A5F /* Resources */,
+				4C117943373D173D97B6B171 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "阿星Mac";
+			productName = AXmacOSDemo;
+			productReference = 21655DD025397D1600071A5F /* 阿星Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21655DC825397D1600071A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					21655DCF25397D1600071A5F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 21655DCB25397D1600071A5F /* Build configuration list for PBXProject "AXmacOSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21655DC725397D1600071A5F;
+			productRefGroup = 21655DD125397D1600071A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21655DCF25397D1600071A5F /* 阿星Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21655DCE25397D1600071A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21655DDA25397D1700071A5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB57175624655C629E1D07D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AXmacOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C117943373D173D97B6B171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AXmacOSDemo/Pods-AXmacOSDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AXmacOSDemo/Pods-AXmacOSDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AXmacOSDemo/Pods-AXmacOSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21655DCC25397D1600071A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21655E1325398A2D00071A5F /* AXUserInfo.mm in Sources */,
+				21655E1025398A2D00071A5F /* AXWindowController.m in Sources */,
+				21655DD825397D1600071A5F /* ViewController.m in Sources */,
+				21655DE025397D1700071A5F /* main.m in Sources */,
+				21655DD525397D1600071A5F /* AppDelegate.m in Sources */,
+				21655E1225398A2D00071A5F /* AXUserInfoDao.mm in Sources */,
+				21655E1125398A2D00071A5F /* AXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21655DE225397D1700071A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21655DE325397D1700071A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21655DE525397D1700071A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803F6458A205011B62542B2A /* Pods-AXmacOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AXmacOSDemo/AXmacOSDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BZJZ65HL3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AXmacOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ax.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21655DE625397D1700071A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D8F0A62D5A94EA29E67F5B /* Pods-AXmacOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AXmacOSDemo/AXmacOSDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2BZJZ65HL3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AXmacOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ax.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21655DCB25397D1600071A5F /* Build configuration list for PBXProject "AXmacOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21655DE225397D1700071A5F /* Debug */,
+				21655DE325397D1700071A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21655DE425397D1700071A5F /* Build configuration list for PBXNativeTarget "阿星Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21655DE525397D1700071A5F /* Debug */,
+				21655DE625397D1700071A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21655DC825397D1600071A5F /* Project object */;
+}
